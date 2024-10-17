@@ -1,0 +1,45 @@
+Temporizador: 5:00 min
+	- motivo, En 5 minutos se activa una Super Bomba que le dara al Jefe Un super Poder, el Objetivo es llegar al jefe final y derrotarlo.
+Mecanicas Basicas
+	- Caminar
+	- Correr
+	- Saltar
+	- Golpear
+Mecanicas Extras
+	- Hacerse invisible
+	- Doble Salto
+	- Super Combo de Golpes
+	- Dash
+Instrucciones
+	Se darian en el mismo nivel, al principio, Una Inteligencia Artificial, me explicara lo basico, caminar, correr, saltar, golpear.( al enemigo lo tendra atado y sera el unico xq no tiene mas elementos), Puede ser Un perro mecanico el IA. Despues aparecera para Explicar como funciona, la invisibilidad, el dash, el doble salto y el combo con el.
+Manu Inicial Y Conclusiones
+	- Menu Inicial, con;
+		- Inicio del Juego
+		- Opciones(opcional) Musica On/Off
+		- Salir del Juego
+		- En algun Lugar Creditos
+	- Pantalla de Victoria
+	- Pantalla de Derrota
+	- Pantalla de Agradecimiento con Creditos (todos Con boton de Volver a Menu)
+Graficos Originales
+	- Assets a Realizar
+Musica y Sonidos
+	- Musica para
+		- Menu inicial
+		- Juego en desarrollo
+		- Jefe Final
+		- Condicion de Victoria
+		- Condicion de Derrota
+	- Sonidos para
+		- Click
+		- Salto
+		- Golpe Heroe
+		- Herida Heroe
+		- Herida Enemigos
+		- Herida Jefe
+		- Golpe Enemigo
+		- Combo Especial
+		- Invisible Activado
+		- Dash
+		-
+Testear si se hace en una sola pantalla Completa o dos Escenarios, Donde se pueda guardar o Inciar en el segundo escenario.

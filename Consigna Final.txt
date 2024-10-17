@@ -1,0 +1,34 @@
+Primer Parcial
+Pantalla inicial (aunque sea un título sin botones que te manda al nivel 1)
+Nivel con una muestra de la mecánica básica
+Alguna muestra de mecánica extra
+Segundo Parcial
+2) MECÁNICA BÁSICA
+Movimiento básico que funcione, niveles pensados, desafíos variados, no mucha repetición. Ajusten bien las colisiones del personaje principal, preferentemente con un recángulo invisible de tamaño fijo y otro sprite para las animaciones pegado encima. Esto solo hace falta para el personaje principal, pero hace falta (voy a descontar puntos por colisiones desastrosas/incómodas).
+3) MECÁNICA EXTRA
+Una o varias mecánicas originales, no enseñadas en clase, o bien expandidas a partir de las mecánicas vistas en clase. Preferentemente divertidas, consistentes y con niveles que las hagan lucirse.
+4) INSTRUCCIONES (EN EL CONTEXTO RELEVANTE)
+Una lista de los botones útiles, no en una pantalla separada sino en el nivel en el que hay que usarlos por primera vez. (Se puede aclarar qué hace cada botón, pero en muchos casos con la lista sola alcanza.)
+5) DURACIÓN DE 5 MINUTOS
+No menos, y por favor no mucho más (para ahorrar tiempo de corrección). Pueden ser 5 niveles de 1 minuto, o 10 niveles de 30 segundos, o un desafío infinito reintentable que se mantenga interesante por 5 minutos. No estiren la duración con desafíos repetitivos (jefes o enemigos con demasiada salud, o game overs que te hacen repetir la misma parte de un nivel que ya ganaste mil veces, o rejugar varios niveles que ya se habían superado).
+6) MENÚ INICIAL & CONCLUSIÓN
+El menú puede ser solo el título del juego, sin botones, pero tiene que estar. El final puede ser una pantalla de ganar, o una notificación de haber perdido para volver a empezar, o un cartel de “Gracias por jugar los primeros 3 niveles de esta demo”.
+7) GRÁFICOS ORIGINALES
+La estética del juego en el personaje, fondos, objetos, pantalla de inicio, pantalla final, sitio e imagen de portada en Itch.io. En el caso de los tilesets, pueden usar alguno de internet, pero intervénganlo para darle la estética del juego.
+8) MÚSICA & SONIDOS
+Mientras más acciones y sucesos visuales tengan un sonido que acompaña, generalmente es mejor. Nada de lo sonoro tiene que ser obligatoriamente original. El audio generalmente es opcional durante el cuatrimestre (pero suma) y obligatorio para el final.
+
+Mail del profesor
+Sip. Las consignas son individuales por cada juego, y se las di en vivo la última clase mientras evaluaba los juegos. Probando el juego de nuevo, me imagino que lo pendiente es:
+Poner todos los sonidos posibles a cada cosa que pasa en pantalla (por ejemplo el sonido de salto, de aleteo de enmigos, de impacto contra enemigos, de muerte de enemigos, de interacción con E, de disparo contra pared rompible vs. no rompible, etcétera).
+Poner dentro de lo posible un efecto de líquido al agua/ácido de los niveles (con el efecto Water y/o con el behavior Sine para que suba y baje un poco).
+Poner más parallax de fondo si es posible para darle más efecto de profundidad.
+Implementar animación/animaciones de disparo.
+Quizá implementar un lerp() para trasladar al personaje al moho al usar el poder, en lugar de teletransportarlo instantáneamente.
+Quizá implementar una sola tecla de cambio de arma, que alterne entre una y otra.
+Evitar que los enemigos sigan rotando hacia vos una vez que ya están haciendo la animación de morir.
+Poner alguna tecla para reiniciar el nivel, para evitar tener que reiniciar todo el juego si el personaje se traba adentro de un objeto que cae:
+image.png
+Poner más movimiento al jefe final, ya sea con animaciones o con un behavior Sine y cosas programadas.
+Que dejen de aparecer enemigos una vez derrotado el jefe y que mueran todos los que ya hay en pantalla, para evitar una muerte frustrante justo antes de ganar todo el juego.
+Ya que el juego dura unos 10 minutos y debería apuntar más cerca de 5, acortar las secciones como las de las manos que te bloquean a cada lado hasta que mates a cierta cantidad de enemigos o pase cierta cantidad de tiempo (e indicar en pantalla cuánto falta para que terminen, así no son tan inciertas).
